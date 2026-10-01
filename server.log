@@ -1,0 +1,148 @@
+[Thu Oct  1 16:34:13 2026] PHP 8.3.6 Development Server (http://localhost:8000) started
+[Thu Oct  1 16:34:15 2026] [::1]:41294 Accepted
+[Thu Oct  1 16:34:15 2026] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /app/db.php:18
+Stack trace:
+#0 /app/upload.php(2): require()
+#1 {main}
+  thrown in /app/db.php on line 18
+[Thu Oct  1 16:34:15 2026] [::1]:41294 [500]: POST /upload.php - Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /app/db.php:18
+Stack trace:
+#0 /app/upload.php(2): require()
+#1 {main}
+  thrown in /app/db.php on line 18
+[Thu Oct  1 16:34:15 2026] [::1]:41294 Closing
+[Thu Oct  1 16:34:15 2026] [::1]:41304 Accepted
+[Thu Oct  1 16:34:15 2026] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /app/db.php:18
+Stack trace:
+#0 /app/upload.php(2): require()
+#1 {main}
+  thrown in /app/db.php on line 18
+[Thu Oct  1 16:34:15 2026] [::1]:41304 [500]: POST /upload.php - Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /app/db.php:18
+Stack trace:
+#0 /app/upload.php(2): require()
+#1 {main}
+  thrown in /app/db.php on line 18
+[Thu Oct  1 16:34:15 2026] [::1]:41304 Closing
+[Thu Oct  1 16:34:15 2026] [::1]:41320 Accepted
+[Thu Oct  1 16:34:15 2026] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /app/db.php:18
+Stack trace:
+#0 /app/upload.php(2): require()
+#1 {main}
+  thrown in /app/db.php on line 18
+[Thu Oct  1 16:34:15 2026] [::1]:41320 [500]: POST /upload.php - Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /app/db.php:18
+Stack trace:
+#0 /app/upload.php(2): require()
+#1 {main}
+  thrown in /app/db.php on line 18
+[Thu Oct  1 16:34:15 2026] [::1]:41320 Closing
+[Thu Oct  1 16:34:15 2026] [::1]:41328 Accepted
+[Thu Oct  1 16:34:15 2026] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /app/db.php:18
+Stack trace:
+#0 /app/upload.php(2): require()
+#1 {main}
+  thrown in /app/db.php on line 18
+[Thu Oct  1 16:34:15 2026] [::1]:41328 [500]: POST /upload.php - Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /app/db.php:18
+Stack trace:
+#0 /app/upload.php(2): require()
+#1 {main}
+  thrown in /app/db.php on line 18
+[Thu Oct  1 16:34:15 2026] [::1]:41328 Closing
+[Thu Oct  1 16:35:08 2026] [::1]:42436 Accepted
+[Thu Oct  1 16:35:08 2026] [::1]:42436 [200]: GET /index.php
+[Thu Oct  1 16:35:08 2026] [::1]:42436 Closing
+[Thu Oct  1 16:35:09 2026] [::1]:42450 Accepted
+[Thu Oct  1 16:35:09 2026] [::1]:42450 [200]: GET /script.js
+[Thu Oct  1 16:35:09 2026] [::1]:42450 Closing
+[Thu Oct  1 16:35:09 2026] [::1]:42466 Accepted
+[Thu Oct  1 16:35:09 2026] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /app/db.php:18
+Stack trace:
+#0 /app/api.php(2): require()
+#1 {main}
+  thrown in /app/db.php on line 18
+[Thu Oct  1 16:35:09 2026] [::1]:42466 [500]: GET /api.php?action=get_graphs - Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /app/db.php:18
+Stack trace:
+#0 /app/api.php(2): require()
+#1 {main}
+  thrown in /app/db.php on line 18
+[Thu Oct  1 16:35:09 2026] [::1]:42466 Closing
+[Thu Oct  1 16:36:31 2026] [::1]:52976 Accepted
+[Thu Oct  1 16:36:31 2026] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'indicators' in /app/db.php:18
+Stack trace:
+#0 /app/upload.php(2): require()
+#1 {main}
+  thrown in /app/db.php on line 18
+[Thu Oct  1 16:36:31 2026] [::1]:52976 [500]: POST /upload.php - Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'indicators' in /app/db.php:18
+Stack trace:
+#0 /app/upload.php(2): require()
+#1 {main}
+  thrown in /app/db.php on line 18
+[Thu Oct  1 16:36:31 2026] [::1]:52976 Closing
+[Thu Oct  1 16:36:31 2026] [::1]:52978 Accepted
+[Thu Oct  1 16:36:31 2026] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'indicators' in /app/db.php:18
+Stack trace:
+#0 /app/upload.php(2): require()
+#1 {main}
+  thrown in /app/db.php on line 18
+[Thu Oct  1 16:36:31 2026] [::1]:52978 [500]: POST /upload.php - Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'indicators' in /app/db.php:18
+Stack trace:
+#0 /app/upload.php(2): require()
+#1 {main}
+  thrown in /app/db.php on line 18
+[Thu Oct  1 16:36:31 2026] [::1]:52978 Closing
+[Thu Oct  1 16:36:31 2026] [::1]:52990 Accepted
+[Thu Oct  1 16:36:31 2026] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'indicators' in /app/db.php:18
+Stack trace:
+#0 /app/upload.php(2): require()
+#1 {main}
+  thrown in /app/db.php on line 18
+[Thu Oct  1 16:36:31 2026] [::1]:52990 [500]: POST /upload.php - Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'indicators' in /app/db.php:18
+Stack trace:
+#0 /app/upload.php(2): require()
+#1 {main}
+  thrown in /app/db.php on line 18
+[Thu Oct  1 16:36:31 2026] [::1]:52990 Closing
+[Thu Oct  1 16:36:31 2026] [::1]:52994 Accepted
+[Thu Oct  1 16:36:31 2026] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'indicators' in /app/db.php:18
+Stack trace:
+#0 /app/upload.php(2): require()
+#1 {main}
+  thrown in /app/db.php on line 18
+[Thu Oct  1 16:36:31 2026] [::1]:52994 [500]: POST /upload.php - Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'indicators' in /app/db.php:18
+Stack trace:
+#0 /app/upload.php(2): require()
+#1 {main}
+  thrown in /app/db.php on line 18
+[Thu Oct  1 16:36:31 2026] [::1]:52994 Closing
+[Thu Oct  1 16:36:43 2026] [::1]:54992 Accepted
+[Thu Oct  1 16:36:43 2026] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'indicators' in /app/db.php:18
+Stack trace:
+#0 /app/api.php(2): require()
+#1 {main}
+  thrown in /app/db.php on line 18
+[Thu Oct  1 16:36:43 2026] [::1]:54992 [500]: GET /api.php?action=get_graphs - Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'indicators' in /app/db.php:18
+Stack trace:
+#0 /app/api.php(2): require()
+#1 {main}
+  thrown in /app/db.php on line 18
+[Thu Oct  1 16:36:43 2026] [::1]:54992 Closing
+[Thu Oct  1 16:37:38 2026] [::1]:38346 Accepted
+[Thu Oct  1 16:37:39 2026] [::1]:38346 [200]: POST /upload.php
+[Thu Oct  1 16:37:39 2026] [::1]:38346 Closing
+[Thu Oct  1 16:37:39 2026] [::1]:38350 Accepted
+[Thu Oct  1 16:37:40 2026] [::1]:38350 [200]: POST /upload.php
+[Thu Oct  1 16:37:40 2026] [::1]:38350 Closing
+[Thu Oct  1 16:37:40 2026] [::1]:38356 Accepted
+[Thu Oct  1 16:37:41 2026] [::1]:38356 [200]: POST /upload.php
+[Thu Oct  1 16:37:41 2026] [::1]:38356 Closing
+[Thu Oct  1 16:37:41 2026] [::1]:41920 Accepted
+[Thu Oct  1 16:37:42 2026] [::1]:41920 [200]: POST /upload.php
+[Thu Oct  1 16:37:42 2026] [::1]:41920 Closing
+[Thu Oct  1 16:38:05 2026] [::1]:33102 Accepted
+[Thu Oct  1 16:38:05 2026] [::1]:33102 [200]: GET /index.php
+[Thu Oct  1 16:38:05 2026] [::1]:33102 Closing
+[Thu Oct  1 16:38:05 2026] [::1]:33116 Accepted
+[Thu Oct  1 16:38:05 2026] [::1]:33116 [200]: GET /script.js
+[Thu Oct  1 16:38:05 2026] [::1]:33116 Closing
+[Thu Oct  1 16:38:05 2026] [::1]:33122 Accepted
+[Thu Oct  1 16:38:05 2026] [::1]:33122 [200]: GET /api.php?action=get_graphs
+[Thu Oct  1 16:38:05 2026] [::1]:33122 Closing
